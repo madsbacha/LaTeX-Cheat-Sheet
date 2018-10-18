@@ -3,9 +3,9 @@
 ### Indsæt et billede
 
 ```latex
-\begin{figure}\[h\]
+\begin{figure}[h]
     \centering
-    \includegraphics\[scale=1\]{sti/til/figur/figurFilNavn.png}
+    \includegraphics[scale=1]{sti/til/figur/figurFilNavn.png}
     \caption{Figur tekst \cite{Citelabel}}
     \label{label}
 \end{figure}
