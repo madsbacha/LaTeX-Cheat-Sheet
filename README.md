@@ -5,9 +5,9 @@
 ```latex
 \begin{figure}\[h\]
     \centering
-    \includegraphics\[scale=1\]{figures/tabel\_3\_SOCAL.png}
-    \caption{Eksempler på intensifiers \cite{Kharrat2007Lexicon-basedAnalysis}}
-    \label{fig:tabel\_3\_SOCAL}
+    \includegraphics\[scale=1\]{sti/til/figur/figurFilNavn.png}
+    \caption{Figur tekst \cite{Citelabel}}
+    \label{label}
 \end{figure}
 ```
 
