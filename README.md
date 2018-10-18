@@ -34,3 +34,9 @@
 ```latex
 \label{type:labelnavn}
 ```
+
+### Kommentar
+
+```latex
+% Dette er en kommentar
+```
