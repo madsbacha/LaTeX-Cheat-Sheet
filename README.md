@@ -1,5 +1,16 @@
 # LaTeX Cheat Sheet
 
+# Indholdsfortegnelse
+
+ * [Indsæt et billede](#indsæt-et-billede)
+ * Tekst formatering
+   * [Italic](#italic)
+   * [Bold](#bold)
+ * [Citering](#citering)
+ * [Referering til label](#referering-til-label)
+ * [Lav et label](#lav-et-label)
+ * [Kommentar](#kommentar)
+
 ### Indsæt et billede
 
 ```latex
@@ -15,6 +26,12 @@
 
 ```latex
 \textit{Det her er italic}
+```
+
+### Bold
+
+```latex
+\textbf{Det her er bold}
 ```
 
 ### Citering
