@@ -10,6 +10,8 @@
  * [Referering til label](#referering-til-label)
  * [Lav et label](#lav-et-label)
  * [Kommentar](#kommentar)
+ * Macros
+   * [Citation needed](#citation-needed)
 
 ### Indsæt et billede
 
@@ -56,4 +58,16 @@
 
 ```latex
 % Dette er en kommentar
+```
+
+### Citation needed
+
+```latex
+LaTeX er awesome!\citationneeded
+```
+
+For at kunne bruge `\citationneeded`, skal følgende tilføjes til dit LaTeX dokument.
+```latex
+%Citation needed command
+\newcommand{\citationneeded}[1][]{\color{blue} [Citation needed]\color{black}}
 ```
