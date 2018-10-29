@@ -12,6 +12,7 @@
  * [Kommentar](#kommentar)
  * Macros
    * [Citation needed](#citation-needed)
+ * [Centrering](#centrering)
 
 ### Indsæt et billede
 
@@ -70,4 +71,11 @@ For at kunne bruge `\citationneeded`, skal følgende tilføjes til dit LaTeX dok
 ```latex
 %Citation needed command
 \newcommand{\citationneeded}[1][]{\color{blue} [Citation needed]\color{black}}
+```
+
+### Centrering
+```latex
+\begin{center}
+    Centreret tekst
+\end{center}
 ```
