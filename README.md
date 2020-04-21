@@ -20,6 +20,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[scale=1]{sti/til/figur/figurFilNavn.png}
+%   \includegraphics[width=\textwidth]{sti/til/figur/figurFilNavn.png} % Match width til sidens bredde
     \caption{Figur tekst \cite{Citelabel}}
     \label{label}
 \end{figure}
